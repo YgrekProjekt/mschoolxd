@@ -47,7 +47,7 @@ dict = {
 
 while True:
     try:
-        os.system("cls")
+        os.system("clear")
         print("========================")       
         key = (random.choice(list(dict.keys())))
         print(key)
@@ -58,6 +58,5 @@ while True:
         del dict[key]
         print("========================")
         input()
-        #os.system("cls")        
     except:
         exit()
