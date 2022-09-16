@@ -49,8 +49,8 @@ while True:
     try:
         os.system("clear")
         print("========================")       
-        key = (random.choice(list(dict.keys())))
-        print(key)
+        key = (random.choice(list(dict.value())))
+        print(value)
         print("========================")
         input("Anwser: ")
         print("========================")        
